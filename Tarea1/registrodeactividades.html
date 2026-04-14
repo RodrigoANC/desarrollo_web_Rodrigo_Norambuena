@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Actividad</title>
+        <link rel="stylesheet" href="css/style.css">
+        <script defer src="javascript/registro.js"></script>
+    </head>
+    <body>
+        <h2>Registrar Actividad</h2>
+        <form id="formActividad">
+            <input type="text" id="nombreactividad" placeholder="Nombre de la actividad">
+            <select id="tipoactividad">
+                <option value="">Tipo de actividad: </option>
+                <option>Deportiva</option>
+                <option>Artística</option>
+                <option>Tecnológica</option>
+                <option>Social</option>
+            </select>
+
+            <p><label> Días en que se realiza la actividad:</label></p>
+            <div>
+
+               <p> <label><input type="checkbox" name="dias">Lunes</label> </p>
+            
+                <p> <label><input type="checkbox" name="dias">Martes</label> </p>
+            
+                <p> <label><input type="checkbox" name="dias">Miercoles</label> </p>
+            
+                <p><label><input type="checkbox" name="dias">Jueves</label> </p>
+            
+                <p><label><input type="checkbox" name="dias">Viernes</label> </p>
+            
+                <p> <label><input type="checkbox" name="dias">Sabado</label> </p>
+            
+                <p> <label><input type="checkbox" name="dias">Domingo</label> </p>
+            </div>
+
+        <label>Hora de inicio</label>
+        <input type="time" id="hora_inicio">
+           
+        <label>Hora de término</label>
+        <input type="time" id="hora_fin">
+
+        <label>Cantidad de horas semanales:</label>
+        <input type="number" id="horas">
+        
+        <label>Archivo (foto o video)</label>
+        <input type="file" id="archivo">
+        
+        <label>Link relacionado</label>
+        <input type="text" id="link">
+
+        <button type="submit">Registrar</button>
+
+         </form>
+        <p id="errorAct"></p>
+    </body>
+    </html>

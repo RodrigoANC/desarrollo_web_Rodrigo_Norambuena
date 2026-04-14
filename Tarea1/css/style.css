@@ -1,0 +1,58 @@
+body{font-family:Arial;margin:20px;background:#f4f4f4}
+
+header{background:#222;color:white;padding:10px}
+
+nav a{color:white;margin-right:10px}
+
+form{display:flex;flex-direction:column;width:250px}
+
+input,select,button{margin:5px 0;padding:5px}
+
+.barra{background:#ccc;margin:10px 0}
+
+.progreso{background:#008000;color:white;padding:5px}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  padding: 10px;
+  cursor: pointer;
+}
+
+tr:hover {
+  background-color: #ddd;
+}
+
+
+.Ventana {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.5);
+}
+
+.Contenidoventana {
+  background: white;
+  padding: 20px;
+  margin: 10% auto;
+  width: 300px;
+  border-radius: 10px;
+}
+
+#cerrar {
+  float: right;
+  cursor: pointer;
+}
+
+.graficos img {
+  display: block;
+  margin: 1.5rem auto;
+  max-width: 600px;
+  width: 100%;
+}

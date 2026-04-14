@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Registro Miembro</title>
+        <link rel="stylesheet" href="css/style.css">
+        <script defer src="javascript/registro.js"></script>
+    </head>
+    <body>
+        <h2>Registrar Miembro</h2>
+        <form id="formRegistro">
+            <input type="text" id="nombre" placeholder="Nombre">
+            <input type="text" id="correo" placeholder="Correo">
+            <input type="tel" id="telefono" placeholder="Telefono con +56 9">
+            <input type="text" id="RUT" placeholder="RUT">
+            <select id="genero">
+                <option>Genero</option>
+                <option>Masculino</option>
+                <option>Femenino</option>
+            </select>
+            
+            <select id="tipo">
+                <option value="">Tipo</option>
+                <option>Pregrado</option>
+                <option>Postgrado</option>
+                <option>Académico</option>
+                <option>Funcionario</option>
+            </select>
+            <button>Registrar</button>
+        </form>
+        <p id="error"></p>
+    </body>
+    </html>
